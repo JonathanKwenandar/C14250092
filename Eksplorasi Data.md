@@ -83,15 +83,3 @@ plt.show()
 print(f"Jumlah data awal: {len(df)}")
 print(f"Jumlah data setelah outlier dihapus: {len(df_clean)}")
 ```
-
----
-
-### 🔍 Penjelasan Modifikasi
-- **`kolom_numerik`** → bisa diisi lebih dari satu kolom untuk dibersihkan sekaligus.
-- **`factor`** → default 1.5, bisa diubah jadi 3.0 untuk hanya menghapus outlier ekstrem.
-- Histogram dibuat **sebelum** dan **sesudah** agar terlihat perbedaan distribusi.
-
----
-
-Kalau mau, aku bisa bantu **tambahkan visualisasi boxplot** untuk tiap kolom supaya outlier terlihat jelas sebelum dihapus.  
-Mau aku buatkan juga versi dengan **boxplot per kolom** sebelum dan sesudah pembersihan? Itu akan sangat membantu untuk edukasi dan presentasi.
