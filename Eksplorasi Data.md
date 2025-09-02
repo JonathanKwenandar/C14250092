@@ -1,9 +1,3 @@
-Baik Jonathan, kita pecah dulu jadi dua bagian:  
-1. **Memahami metode IQR untuk deteksi & penghilangan outlier**  
-2. **Eksperimen langsung pada dataset `TGM 2020-2023_eng.csv`** dengan histogram sebelum & sesudah.
-
----
-
 ## 1️⃣ Ringkasan Cara Kerja Metode IQR
 **IQR (Interquartile Range)** adalah rentang antara kuartil ke-3 (Q3) dan kuartil ke-1 (Q1) dari data.  
 Langkahnya:
